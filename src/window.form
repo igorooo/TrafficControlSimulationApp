@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="window">
+  <grid id="27dc6" binding="RootPanel" layout-manager="GridLayoutManager" row-count="15" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="3" y="5" width="1328" height="523"/>
+    </constraints>
+    <properties/>
+    <border type="none" title="s"/>
+    <children>
+      <vspacer id="8b23e">
+        <constraints>
+          <grid row="0" column="3" row-span="15" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="6fcb2" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="212e" class="javax.swing.JTextField" binding="AOC">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="14324" class="javax.swing.JTextField" binding="VARZ">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8b73d" class="javax.swing.JTextField" binding="LST">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="82b8b" class="javax.swing.JTextField" binding="UST">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d42e7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="AMOUNT OF CPUS"/>
+        </properties>
+      </component>
+      <component id="66895" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="VARIABLE Z: "/>
+        </properties>
+      </component>
+      <component id="a3f74" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="LOWER USAGE THRESHOLD"/>
+        </properties>
+      </component>
+      <component id="905e1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="UPPER USAGE THRESHOLD"/>
+        </properties>
+      </component>
+      <component id="af31d" class="javax.swing.JButton" binding="STARTSIMULATIONButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="START SIMULATION"/>
+        </properties>
+      </component>
+      <component id="765c4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="FIRST ALGORITHM LOGS:"/>
+        </properties>
+      </component>
+      <component id="cb4b4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="SECOND ALGORITHM LOGS:"/>
+        </properties>
+      </component>
+      <component id="9b1f1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="THIRD ALGORITHM LOGS:"/>
+        </properties>
+      </component>
+      <component id="da781" class="javax.swing.JTextArea" binding="result3">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9d434" class="javax.swing.JTextArea" binding="result2">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="36dc8" class="javax.swing.JTextArea" binding="result1">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="62f33" class="javax.swing.JButton" binding="STOPSIMULATIONANDGETButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="STOP SIMULATION AND GET RESULTS"/>
+        </properties>
+      </component>
+      <component id="abe1e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="SIMULATING TRAFFIC CONTROL ALGORITHMS"/>
+        </properties>
+      </component>
+      <scrollpane id="ac767">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="164d6" class="javax.swing.JTextArea" binding="log1">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="e52bc">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9d052" class="javax.swing.JTextArea" binding="log2">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="6f04b">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6b5b1" class="javax.swing.JTextArea" binding="log3">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="b9080" class="javax.swing.JButton" binding="INFOSButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="INFOS"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
